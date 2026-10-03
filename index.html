@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For You</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><clipPath id="h" clipPathUnits="objectBoundingBox"><path d="M.5,.95C.1,.65 0,.42 0,.28 0,.1 .12,0 .27,0 .38,0 .46,.06 .5,.14 .54,.06 .62,0 .73,0 .88,0 1,.1 1,.28 1,.42 .9,.65 .5,.95Z"/></clipPath></svg>
+<canvas id="bg"></canvas>
+<button id="mus" aria-label="Toggle music" style="display:none">♪</button>
+
+<div id="gate"><p class="hand" id="gtxt"></p>
+<button class="gift" id="gift" aria-label="Open your gift"><span class="box"></span><span class="rib"></span><span class="lid"></span><span class="bow"></span></button>
+<p class="hand" style="font-size:1.3rem;color:var(--text)">tap to open</p></div>
+
+<main id="main">
+<section id="hero">
+<div class="heart" id="heroimg" role="img" aria-label="Us"></div>
+<div id="typed" class="hand"></div>
+<div class="cue">scroll down, there is more ↓</div>
+</section>
+
+<section id="mem">
+<h2>Little pieces of us</h2>
+<p class="hand" style="font-size:1.5rem;margin:0">tap any photo to see it big</p>
+<div class="wall" id="wall"></div>
+</section>
+
+<section id="movie">
+<h2>Our little movie</h2>
+<div class="reel" id="reel"><div id="rcap"></div></div>
+</section>
+
+<section id="why">
+<h2>Why you're my favourite person</h2>
+<p class="hand" style="font-size:1.5rem;margin:0">tap to flip</p>
+<div class="cards" id="cards"></div>
+</section>
+
+<section id="time">
+<h2>Time I've gotten to love you</h2>
+<div class="count" id="count"></div>
+<p class="hand" style="font-size:1.6rem">and I'd happily start the clock again</p>
+</section>
+
+<section id="note">
+<h2 class="hand" style="font-size:clamp(2.4rem,8vw,4rem)">A note, just for you</h2>
+<div class="letter hand" id="letter" style="font-size:clamp(1.5rem,4.4vw,2rem)"></div>
+<p class="hand" style="font-size:1.6rem;margin:2rem 0 0">One last thing: press and hold my heart</p>
+<button class="hold" id="fin" aria-label="Press and hold"></button>
+<div id="end" class="hand">I love you ♥</div>
+</section>
+</main>
+<div id="lb"><img alt=""></div>
+
+<script src="script.js"></script>
+</body>
+</html>
