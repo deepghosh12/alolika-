@@ -6,7 +6,7 @@ const CAPS=["Sunshine and us","Can't stop smiling","Same wall, new day","Being s
 const REASONS=["Your smile makes my whole day","You make ordinary places feel special","I can be completely myself with you","You laugh at my silly jokes","Every adventure is better with you","You are my calm and my chaos"];
 const LETTER="Dear "+NAME+",\n\nThank you for the laughs, the adventures, the quiet moments, and for simply being you.\n\nWith you, even a plain hallway becomes a favourite memory.\n\nI hope this made you smile.\n\nForever yours.";
 /* ====================== */
-const IM=["photos/1.jpg", "photos/2.jpg", "photos/3.jpg", "photos/4.jpg", "photos/5.jpg", "photos/6.jpg", "photos/7.jpg", "photos/8.jpg"];
+const IM=["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg"];
 const $=s=>document.querySelector(s);
 const RM=matchMedia("(prefers-reduced-motion:reduce)").matches;
 // background: floating glow + hearts
